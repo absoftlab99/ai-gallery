@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Discover AI</h1>
+          <h1 className="mb-5 text-3xl font-bold">THE LARGEST AI TOOLS DIRECTORY, UPDATED DAILY.</h1>
           <p className="mb-5">Understanding the Impact of Artificial Intelligence on Our World". Exploring the Boundless Possibilities of Artificial Intelligence</p>
           <button className="btn btn-primary">Get Started <BsChevronDoubleDown className="ml-2"></BsChevronDoubleDown></button>
         </div>
