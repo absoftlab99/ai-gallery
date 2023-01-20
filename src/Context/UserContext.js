@@ -31,7 +31,7 @@ const UserContext = ({children}) => {
         }
     },[])
 
-    const authInfo = {googlePopUp, user, loading, logOut};
+    const authInfo = {googlePopUp, user, loading, logOut, setLoading};
     return (
         <div>
             <AuthContext.Provider value={authInfo}>

@@ -9,7 +9,7 @@ import { GoogleAuthProvider } from "firebase/auth";
 
 const Header = () => {
 
-    const { googlePopUp, user, logOut } = useContext(AuthContext)
+    const { googlePopUp, user, logOut, loading } = useContext(AuthContext)
 
     const provider = new GoogleAuthProvider();
 
