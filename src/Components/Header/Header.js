@@ -91,7 +91,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <button className="btn btn-ghost normal-case text-xl">
-                    <GiBrain className="mr-2 text-4xl"></GiBrain>Ai Gallery
+                    <GiBrain className="mr-2 text-4xl text-accent"></GiBrain>Ai Gallery
                 </button>
             </div>
             <div className="navbar-center hidden lg:flex">
