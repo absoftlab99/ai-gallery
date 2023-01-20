@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+.outlet{
+  min-height: 90vh;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
