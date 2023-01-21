@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 const Card = () => {
     return (
         <div>
-            <div className='grid grid-cols-12 gap-4 my-8 mx-16'>
+            <div className='grid grid-cols-12 gap-4 my-8 sm:mx-8 lg:mx-16'>
                 <div className='col-span-4'>
-                    <div className="card w-96 bg-base-100 shadow-xl">
+                    <div className="card card-bordered w-96 bg-base-100 shadow-xl justify-center">
                         <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
                         <div className="card-body">
                             <div className='flex justify-between'>

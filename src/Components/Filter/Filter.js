@@ -3,11 +3,11 @@ import { BsSearch } from 'react-icons/bs';
 
 const Filter = () => {
     return (
-        <div className='mx-16 my-5 grid grid-cols-12 justify-between gap-3'>
-            <div className='col-span-7'>
+        <div className='grid grid-cols-10 justify-between gap-3 my-5 mx-16'>
+            <div className='col-span-5'>
                 <input type="text" placeholder='Search ai tools from over 100+ ai tools gallery.' className="input input-bordered input-accent w-full" />
             </div>
-            <div className='col-span-3'>
+            <div className='col-span-4'>
                 <select className="select select-accent w-full">
                     <option disabled selected>Select your niche category</option>
                     <option>Art</option>
@@ -15,8 +15,8 @@ const Filter = () => {
                     <option>Science</option>
                 </select>
             </div>
-            <div className='col-span-2'>
-                <button className='btn btn-accent btn-active'><BsSearch className='text-xl mr-2'></BsSearch>Search</button>
+            <div className='col-span-1 flex justify-end'>
+                <button className='btn btn-accent btn-active justify-items-end'><BsSearch className='text-xl mr-2'></BsSearch>Search</button>
             </div>  
         </div>
     );
