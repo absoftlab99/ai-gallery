@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import AddAi from "../../../Pages/AddAi/AddAi";
+import Blog from "../../../Pages/Blog/Blog";
 import Bookmarks from "../../../Pages/Bookmarks/Bookmarks";
 import Home from "../../../Pages/Home/Home";
 import MyGallery from "../../../Pages/MyGallery/MyGallery";
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/addAi",
         element: <AddAi></AddAi>,
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
       },
     ],
   },

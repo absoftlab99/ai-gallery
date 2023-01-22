@@ -5,6 +5,7 @@ import {
     BsBookmark,
     BsFillGridFill,
     BsPlusLg,
+    BsNewspaper,
 } from "react-icons/bs";
 import { GiBrain } from "react-icons/gi";
 import { FcGoogle, FcRedo } from "react-icons/fc";
@@ -61,6 +62,11 @@ const Header = () => {
             ) : (
                 ""
             )}
+            <li>
+                <Link to={"/blog"}>
+                    <BsNewspaper></BsNewspaper>Blog
+                </Link>
+            </li>
         </>
     );
     return (
