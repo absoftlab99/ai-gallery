@@ -8,7 +8,7 @@ const Card = () => {
             <div className='grid grid-cols-12 gap-4 my-8 px-5 md:mx-16'>
                 <div className='col-span-12 md:col-span:6 lg:col-span-4'>
                     <div className="card card-bordered w-full bg-base-100 shadow-xl justify-center">
-                        <figure><img className='img' src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+                        <figure><img className='img' src="https://etimg.etb2bimg.com/thumb/msid-98506949,imgsize-71224,width-1200,height=765,overlay-etbrandequity/digital/from-marketing-to-design-brands-adopt-ai-tools-despite-risk.jpg" alt="Shoes" /></figure>
                         <div className="card-body">
                             <div className='flex justify-between'>
                                 <div className="">
@@ -36,7 +36,7 @@ const Card = () => {
                 </div>
                 <div className='col-span-12 md:col-span:6 lg:col-span-4'>
                     <div className="card card-bordered w-full bg-base-100 shadow-xl justify-center">
-                        <figure><img className='img' src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+                        <figure><img className='img' src="https://etimg.etb2bimg.com/thumb/msid-98506949,imgsize-71224,width-1200,height=765,overlay-etbrandequity/digital/from-marketing-to-design-brands-adopt-ai-tools-despite-risk.jpg" alt="Shoes" /></figure>
                         <div className="card-body">
                             <div className='flex justify-between'>
                                 <div className="">
@@ -64,7 +64,7 @@ const Card = () => {
                 </div>
                 <div className='col-span-12 md:col-span-6 lg:col-span-4'>
                     <div className="card card-bordered w-full bg-base-100 shadow-xl justify-center">
-                        <figure><img className='img' src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+                        <figure><img className='img' src="https://etimg.etb2bimg.com/thumb/msid-98506949,imgsize-71224,width-1200,height=765,overlay-etbrandequity/digital/from-marketing-to-design-brands-adopt-ai-tools-despite-risk.jpg" alt="Shoes" /></figure>
                         <div className="card-body">
                             <div className='flex justify-between'>
                                 <div className="">
